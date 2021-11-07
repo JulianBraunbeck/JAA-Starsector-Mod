@@ -1,0 +1,47 @@
+{
+  "id": "jaa_pike_s2",
+  "specClass": "projectile",
+  "projectileSpecId": "jaa_stage2_pike",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/jaa_pike_turret_base.png",
+  "hardpointSprite": "graphics/weapons/jaa_pike_hardpoint_base.png",
+#  "renderHints": [ RENDER_LOADED_MISSILES ],
+  "everyFrameEffect":"data.scripts.weapons.JAA_PikeSBMWeaponEffectPlugin",
+  "turretOffsets": [
+    31.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    36.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "interruptibleBurst":false,
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackSpread": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "hurricane_mirv_fire"
+}
