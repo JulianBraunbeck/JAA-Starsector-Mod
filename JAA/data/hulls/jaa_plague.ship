@@ -1,0 +1,61 @@
+{
+  "hullName": "Plague",
+  "hullId": "jaa_plague",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/fighters/jaa_fighter.png",
+  "style": "LOW_TECH",
+  "height": 44,
+  "width": 44,
+  "center": [22, 20.5],
+  "collisionRadius": 44.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 39.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [3, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, -0],
+      "length": 24.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-15.5, -7.5],
+      "length": 15,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-15.5, 7.5],
+      "length": 15,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    33, 1,
+    16, 20.5,
+    2, 21,
+    -19.5, 15.5,
+    -19.5, -15.5,
+    2, -21,
+    16, -20.5,
+    33, -1
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "jaa_chemlaser",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/jaa_chemlaser_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/jaa_chemlaser_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/jaa_chemlaser_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/jaa_chemlaser_hardpoint_glow.png",
+  "glowColor": [
+    240,
+    71,
+    0,
+    219
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    16,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    23,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+#  "coreColor": [255,255,255,255],
+#  "coreColor": [125,0,155,255],
+#  "fringeColor":[255,255,255,100],
+  "fringeColor": [
+    240,
+    71,
+    0,
+    219
+  ],
+  "coreColor": [
+    0,
+    255,
+    205,
+    255
+  ],
+  "width": 30,
+  "textureType": SMOOTH,
+  "textureScrollSpeed": 150,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "jaa_chemlaser"
+}

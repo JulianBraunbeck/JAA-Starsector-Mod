@@ -1,0 +1,50 @@
+{
+  "hullName": "Stormwind",
+  "hullId": "jaa_stormwind",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/fighters/jaa_stormwind.png",
+  "style": "HIGH_TECH",
+  "height": 39,
+  "width": 30,
+  "center": [15, 17],
+  "collisionRadius": 29.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 28,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, -8.5],
+      "length": 12.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, 8.5],
+      "length": 12.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    14, -12,
+    -16, -16.5,
+    -16, 16.5,
+    14, 12.5,
+    23.5, -0
+  ]
+}

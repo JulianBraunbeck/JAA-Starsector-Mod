@@ -1,0 +1,60 @@
+package data.scripts.weapons;
+
+import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.listeners.DamageDealtModifier;
+import org.lwjgl.util.vector.Vector2f;
+
+import java.awt.*;
+
+// change the plugin name in the .weapon file to this
+public class JAA_PikeSBMWeaponEffectPlugin implements EveryFrameWeaponEffectPlugin {
+    private static final float HULL_DAMAGE_MULT = 0.5f;
+    private boolean runOnce = false;
+
+    //listener for 0 shield damage, ty to dragn for help!
+    public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
+        if (engine.isPaused() || weapon == null)
+            return;
+        if(!runOnce){
+            runOnce = true;
+            ShipAPI ship = weapon.getShip();
+            if (!ship.hasListenerOfClass(JAA_PikeSBMDMG.class)){
+                ship.addListener(new JAA_PikeSBMDMG());
+            }
+        }
+    }
+
+    public static class JAA_PikeSBMDMG implements DamageDealtModifier {
+
+        /**
+         * @param param
+         * This is the thing that's dealing the damage. DamagingProjectileAPI, BeamAPI, or MissileAPI
+         * @param target
+         * What the damage is getting applied to
+         * @param damage
+         * Damage amount and type.
+         * @param point
+         * Location where the hit is occurring.
+         * @param shieldHit
+         * True if the damage is being applied to shields.
+         * @return
+         * Should return the ID of the modifier. This is the same as the id argument for any of the stat modifiers.
+         */
+        @Override
+        public String modifyDamageDealt(Object param, CombatEntityAPI target, DamageAPI damage, Vector2f point, boolean shieldHit)
+        {
+            if ((param instanceof MissileAPI) && !shieldHit)
+            {
+                WeaponAPI weapon = ((MissileAPI)param).getWeapon();
+                if (weapon == null)
+                    return null;
+                if (weapon.getId().contains("jaa_pike"))
+                {
+                    damage.getModifier().modifyMult("jaa_pike", HULL_DAMAGE_MULT);
+                    return "jaa_pike";
+                }
+            }
+            return null;
+        }
+    }
+}

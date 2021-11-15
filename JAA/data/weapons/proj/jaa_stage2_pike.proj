@@ -1,0 +1,39 @@
+{
+	"id":"jaa_stage2_pike",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/jaa_missile_pike.png",
+	"size":[21,34],	
+	"center":[10,17],
+	"collisionRadius":22,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual	
+	"engineSpec":{"turnAcc":300,
+				  "turnRate":50,
+				  "maxSpeed":4000,
+				  "acc":3000,
+				  "dec":2500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-13, 0],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[100,165,255,255],
+						"contrailDuration":1,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":1, # how far away from engine it starts
+						"contrailColor":[100,165,255,75],
+						"glowSizeMult":2,
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":7.0,
+				    "length":40.0,
+				    "angle":180.0},
+				    ]				    
+}
