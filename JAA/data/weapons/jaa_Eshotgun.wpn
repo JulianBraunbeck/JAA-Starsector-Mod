@@ -1,0 +1,61 @@
+{
+  "id": "jaa_Eshotgun",
+  "specClass": "projectile",
+  "projectileSpecId": "jaa_Eshotgun",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/shotguns/jaa_Eshotgun_turret_base00.png",
+  "turretGunSprite": "graphics/weapons/shotguns/jaa_Kshotgun_turret_barrel00.png",
+  "hardpointSprite": "graphics/weapons/shotguns/jaa_Eshotgun_hardpoint_base00.png",
+  "hardpointGunSprite": "graphics/weapons/shotguns/jaa_Kshotgun_hardpoint_barrel00.png",
+  "visualRecoil": 3,
+  "separateRecoilForLinkedBarrels":TRUE,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    21,
+    2,
+    21,
+    1,
+    19.5,
+    1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    26,
+    2,
+    26,
+    1,
+    24.5,
+    1.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 5,
+  "frameRate": 2,
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "particleDuration": 0.15,
+    "particleCount": 12,
+    "particleColor": [
+      235,
+      255,
+      160,
+      235
+    ]
+  },
+  "fireSoundTwo": "jaa_Eshotgun"
+}

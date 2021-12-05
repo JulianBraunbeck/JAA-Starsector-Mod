@@ -17,10 +17,18 @@ A post-collapse design of the Luddic church, the Grasshopper SRM found, of cours
 jaa_stormwind,SHIP,"An agile fighter equipped with a modified needler firing shorter bursts than it's standard counterpart. Struggles to secure kills on its own but can exert considerable pressure on an enemy.
 
 A Persean League design, the Stormwind utilizes the latest advancements in small-scale generator technology and modular design. As a result of this, it can be deployed in high numbers and swiftly replaced when a unit is destroyed, all while remaining surprisingly survivable.",,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
+jaa_gdisruptor,WEAPON,"Projectile firing kinetic energy weapon. Large version of the gravitonic disruptor. Slightly longer range and more efficient.
+
+Many high officers and executives in the Tri-Tachyon coopertion and it's military forces opposed the developement of the gravitonic disruptor due to fears that, if aquired by them, it's enemies would deal far more damage than the cooperation would gain from the weapon. The Multidisruptor had even heavier opposition due to a lack of models that could use it. It was nonetheless pushed through by an amitious executive with support from a accomplished admiral of the second AI war.",,,
+jaa_gdisruptorM,WEAPON,"Projectile firing kinetic energy weapon. Close range but quite strong on fast ships. 
+
+Developed by Tri-Tachyon to increase the shieldbreaking power of it's fast cruisers and destroyers, this weapon utilizes technologies found in the ion pulser and the gravitonic beam. It's short range gravity anomalies can quickly compromise the shields of the enemy in a close attack run, but after creating the opening they struggle in exploiting them.",,,
+jaa_Kshotgun,WEAPON,"Kinetic multi projectile weapon with a large spread, but very high dps and efficiency.
+
+The KS1 Magno-scatter is based upon a design considered obsolete by the domain navy long before the collapse, and left to languish until it was discovered in obscure leftover data in the storage banks of the fourtheenth battlegroup. The engineers of the Hegemony redesigned the weapons caseless ammunition and so managed to create a fearsome close-range weapon.",,,
+jaa_Eshotgun,WEAPON,"Close range proximity-fused multi projectile weapon with large spread, but very high dps and efficiency
+
+The ES3 is the result of several experiments conducted to ascertain whether or not the large spread of the KS1 could be utilized for proximity-fused ammunition to create a lethal blanket of point defense fire. It can also be utilized as a lethal close range weapon against small ships, whereas it's large spread makes it unattractive to larger ships. ",,,
 ,,,,,
 ,,,,,
 ,,,,,

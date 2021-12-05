@@ -3,19 +3,63 @@
 #collapseopen WEAPONS
 
 	"jaa_stage2_pike":[
-    {"file":"sounds/JAA/sfx_weapons/jaa_pike_s2.ogg","pitch":1,"volume":0.5},
+    {"file":"sounds/JAA/sfx_weapons/jaa_pike_s2.ogg","pitch":0.98,"volume":0.5},
+	{"file":"sounds/JAA/sfx_weapons/jaa_pike_s2.ogg","pitch":1,"volume":0.5},
+	{"file":"sounds/JAA/sfx_weapons/jaa_pike_s2.ogg","pitch":1.02,"volume":0.5},
 	],
 	
 	"jaa_chemlaser":[
-    {"file":"sounds/JAA/sfx_weapons/jaa_chemlaser.ogg","pitch":1,"volume":0.8},
+    {"file":"sounds/JAA/sfx_weapons/jaa_chemlaser.ogg","pitch":0.98,"volume":0.8},
+	{"file":"sounds/JAA/sfx_weapons/jaa_chemlaser.ogg","pitch":1,"volume":0.8},
+	{"file":"sounds/JAA/sfx_weapons/jaa_chemlaser.ogg","pitch":1.02,"volume":0.8},
 	],
 	
 	"jaa_crossbow":[
-    {"file":"sounds/JAA/sfx_weapons/jaa_crossbow.ogg","pitch":1,"volume":0.8},
+    {"file":"sounds/JAA/sfx_weapons/jaa_crossbow.ogg","pitch":0.98,"volume":0.8},
+	{"file":"sounds/JAA/sfx_weapons/jaa_crossbow.ogg","pitch":1,"volume":0.8},
+	{"file":"sounds/JAA/sfx_weapons/jaa_crossbow.ogg","pitch":1.02,"volume":0.8},
 	],
 	
 	"jaa_crossbow_launch":[
     {"file":"sounds/JAA/sfx_weapons/jaa_crossbow_launch.ogg","pitch":1,"volume":0.8},
+	],
+	
+	"jaa_gdisruptorL": [
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":1.01,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":1.02,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":1.03,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":1.04,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":1.05,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.99,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.98,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.97,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.96,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.96,"volume":0.45},
+	],
+
+	"jaa_gdisruptorM": [
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.91,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.92,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.93,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.94,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.95,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.89,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.88,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.87,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.86,"volume":0.45},
+		{"file":"sounds/JAA/sfx_weapons/jaa_gdisruptorL2.ogg","pitch":0.86,"volume":0.45},
+	],
+	
+	"jaa_Kshotgun":[
+    {"file":"sounds/JAA/sfx_weapons/jaa_Kshotgun01.ogg","pitch":1,"volume":1},
+	{"file":"sounds/JAA/sfx_weapons/jaa_Kshotgun01.ogg","pitch":1.02,"volume":1},
+	{"file":"sounds/JAA/sfx_weapons/jaa_Kshotgun01.ogg","pitch":0.98,"volume":1},
+	],
+	
+	"jaa_Eshotgun":[
+    {"file":"sounds/JAA/sfx_weapons/jaa_Eshotgun02.ogg","pitch":1,"volume":1.2},
+	{"file":"sounds/JAA/sfx_weapons/jaa_Eshotgun02.ogg","pitch":1.02,"volume":1.2},
+	{"file":"sounds/JAA/sfx_weapons/jaa_Eshotgun02.ogg","pitch":0.98,"volume":1.2},
 	],
 }
 

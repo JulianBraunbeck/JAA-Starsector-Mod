@@ -2,7 +2,7 @@
   "hullName": "Plague",
   "hullId": "jaa_plague",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/fighters/jaa_fighter.png",
+  "spriteName": "graphics/fighters/jaa_plague.png",
   "style": "LOW_TECH",
   "height": 44,
   "width": 44,

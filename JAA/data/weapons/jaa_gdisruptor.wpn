@@ -1,0 +1,65 @@
+{
+  "id": "jaa_gdisruptor",
+  "specClass": "projectile",
+  "projectileSpecId": "jaa_gdisruptor_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/weapons/jaa_gdisruptor_turret_base.png",
+  "turretGunSprite": "graphics/weapons/jaa_gdisruptor_turret_barrel.png",
+  "hardpointSprite": "graphics/weapons/jaa_gdisruptor_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/jaa_gdisruptor_hardpoint_barrel.png",
+  "visualRecoil": 5,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    37,
+    8.5,
+    37,
+    -3.5,
+    32,
+    3.5,
+    32,
+    -8.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    40.5,
+    8.5,
+    40.5,
+    -3.5,
+    35.5,
+    3.5,
+    35.5,
+    -8.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 54,
+    "spread": 20,
+    "particleSizeMin": 5,
+    "particleSizeRange": 5,
+    "particleDuration": 0.12,
+    "particleCount": 5,
+    "particleColor": [
+      5,
+      135,
+      175,
+      255
+    ]
+  },
+  "fireSoundTwo": "jaa_gdisruptorL"
+}
