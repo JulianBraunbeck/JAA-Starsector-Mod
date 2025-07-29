@@ -1,19 +1,30 @@
 {
 	"id":"jaa_stage2_pike",
 	"specClass":"missile",	
-	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/jaa_missile_pike.png",
-	"size":[21,34],	
-	"center":[10,17],
+	"missileType":"ROCKET",
+	"sprite":"graphics/missiles/jaa_missile2_pike.png",
+	"size":[13,36],	
+	"center":[7,18],
 	"collisionRadius":22,
 	"collisionClass":"MISSILE_NO_FF",
+	"onHitEffect": "data.scripts.weapons.JAA_PikeImpactScript",
 	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":100, # purely visual	
-	"engineSpec":{"turnAcc":300,
-				  "turnRate":50,
-				  "maxSpeed":4000,
-				  "acc":3000,
-				  "dec":2500},
+	"explosionRadius":250, # purely visual	
+	"explosionSpec":{"duration":1f,#0.1f, # not visual
+					 "radius":100,
+					 "coreRadius":50, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":8.0,
+					 "particleSizeRange":5.0,
+					 "particleDuration":2,
+					 "particleCount":100,
+					 "particleColor":[100,100,255,255]},
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "maxSpeed":3000,
+				  "acc":450,
+				  "dec":1},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-13, 0],
 				    #"style":"MISSILE_HIGH_TECH",
@@ -29,7 +40,7 @@
 						"contrailAngularVelocityMult":0.5f,
 						"contrailSpawnDistMult":1, # how far away from engine it starts
 						"contrailColor":[100,165,255,75],
-						"glowSizeMult":2,
+						"glowSizeMult":3.5,
 						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
 					},
 				    "width":7.0,

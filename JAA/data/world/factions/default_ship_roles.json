@@ -1,0 +1,104 @@
+{
+	# How to use DEFAULT_SHIP_ROLES.JSON
+	#
+	# This file contains a list of categories ("combatSmall", "carrierLarge", "freighterMedium", etc.) that define a specific fleet role.
+	# Under each category (within the curvy brackets) you can then create a list of ships that you think apply to that role.
+	#
+	# To assign a ship to a role, give it an entry in the format of the example:
+	# 	"shiphull_Variant":<weight>
+	# In the quote marks you put a ship VARIANT ID reference, and in the <weight> bit you put a number which gives the ship a weight in the
+	# chance to be spawned in this role. In this way you can assign ships on a variant by variant basis, with higher or lower chance for each,
+	# to whichever roles you like.
+	#
+	# TAKE NOTE:
+	# - Weights for ships in given roles are combined across all active mods (and the vanilla game), which is why having a lot of ship packs tends
+	#   to saturate the ship spawning. For this reason you need to make sure you take out any vanilla references from the vanilla default_ship_roles
+	#	in this file (I've already cleared this one out for you).
+	# - As a general rule, a ship of average spawn rate should have a total weight of 10 across all its variants in a single role. More weight
+	#   means a higher chance to spawn in general, less weight means lower chance. Also, the more roles you put a single ship hull in, the higher chance
+	#	it will have to appear.
+	# - You don't need to fill every role, and only put ships in roles that actually fit those roles. Please don't put combat ships in the "freighter---"
+	#	categories, for example.
+	# - Factions will only use ships from this file which they are granted access to through their own <faction>.faction file. For ships you have
+	#   that appear through the vanilla blueprint packages (base/low/midline/high), these should appear in use by the factions you would expect.
+	#	Any ships you have marked as "rare_bp" or custom blueprint packages will need to be manually added to a faction's "known ships" section
+	#	in that faction's file. The same will need to be done if you want to fine tune ship spawns on a faction-by-faction basis.
+	
+	
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		#"shiphull_Variant1":10,	
+		#"shiphull_Variant2":5,
+		#"shiphull_Variant3":5,
+		
+	},
+	"combatSmall":{
+		"jaa_tempest_striker":5,
+	},
+	"combatMedium":{
+		"jaa_medusa_attack":3,
+	},
+	"combatLarge":{
+		"jaa_eagle_striker":5,
+		"jaa_falcon_striker":5,
+		"jaa_aurora_attack":2,
+		"jaa_gryphon_attack":4,
+		
+		
+	},
+	"combatCapital":{
+		"jaa_prometheus2_assault":10,
+		"jaa_odyssey_assault":10,
+		"jaa_atlas2_attack":10,
+	},
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{},
+	"combatFreighterMedium":{
+	},
+	"combatFreighterLarge":{
+	},
+	
+	"civilianRandom":{},
+
+	# carriers
+	"carrierSmall":{},
+	"carrierMedium":{
+	},
+	"carrierLarge":{
+		
+		"jaa_legion_brawler":10,
+	},
+
+	# phase ships
+	"phaseSmall":{},
+	"phaseMedium":{},
+	"phaseLarge":{},
+	"phaseCapital":{},
+
+	# freighters and such
+	"freighterSmall":{},
+	"freighterMedium":{},
+	"freighterLarge":{},
+	
+	"tankerSmall":{},
+	"tankerMedium":{},
+	"tankerLarge":{},
+	
+	"personnelSmall":{},
+	"personnelMedium":{},
+	"personnelLarge":{},
+	
+	"linerSmall":{},
+	"linerMedium":{},
+	"linerLarge":{},
+	
+	# utility ships
+	"tug":{},
+	"crig":{},
+	"utility":{},
+	
+	"orbitalStationLowTech":{},
+	"battlestationLowTech":{},
+}

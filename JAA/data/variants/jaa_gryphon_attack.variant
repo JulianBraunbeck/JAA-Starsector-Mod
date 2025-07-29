@@ -1,0 +1,50 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 6,
+    "fluxVents": 30,
+    "hullId": "gryphon",
+    "hullMods": ["eccm"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jaa_gryphon_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "jaa_pike"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 008": "harpoonpod",
+                "WS 009": "harpoonpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 010": "sabot",
+                "WS 011": "sabot",
+                "WS 012": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "vulcan",
+                "WS 004": "vulcan",
+                "WS 005": "vulcan",
+                "WS 006": "vulcan",
+                "WS 007": "vulcan"
+            }
+        }
+    ]
+}

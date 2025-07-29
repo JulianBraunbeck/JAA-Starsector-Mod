@@ -1,0 +1,56 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 24,
+    "fluxVents": 50,
+    "hullId": "prometheus2",
+    "hullMods": ["dedicated_targeting_core"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jaa_prometheus2_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 019": "hammerrack"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 031": "mark9",
+                "WS 032": "mark9"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "heavymortar",
+                "WS 005": "heavymortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightag",
+                "WS 003": "lightag",
+                "WS 006": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "lightdualmg",
+                "WS 014": "lightdualmg",
+                "WS 015": "lightdualmg",
+                "WS 016": "lightdualmg"
+            }
+        }
+    ],
+    "wings": [
+        "jaa_plague_wing",
+        "jaa_plague_wing"
+    ]
+}

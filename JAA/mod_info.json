@@ -2,7 +2,7 @@
 "id":"jaa", # required code id
 "name":"Jackundor's Advanced Arms", # required friendly name
 "author":"Jackundor", # author's name
-"version": "0.4.0", # required mod version, this shows 1.0.0
+"version": "0.5.0", # required mod version, this shows 1.0.0
 "description":"Simple small weapon pack, Only steal if i have made a full release of this mod", # required friendly mod description
-"gameVersion":"0.95.1a-RC6", # required starsector version this was designed for
+"gameVersion":"0.98a-RC8", # required starsector version this was designed for
 }

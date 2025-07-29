@@ -1,17 +1,16 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-Pike SBM,jaa_pike,1,,3500,1500,,300,,50,15,25,12,,,KINETIC,0,,0,7,1,,0,0,0,0,,300,50,5,600,,,STRIKE,"missile17, strike14, rare_bp, hist1t, merc, pirates, hegemony, tritachyon, sindrian_diktat",,Advanced,,Anti Shield,Extremely Fast,good,,,"Due to it's hyper-brittle warhead breaking upon impact, damage against hull and armor is %s",halved,,,TRUE,jaa1
-pike hidden,jaa_pike_s2,,,,1500,,2000,,50,15,,,,,KINETIC,,,,,1,,,,,,,3000,300,3,600,,,SYSTEM,,,,,,,,,,,,,,,jaa2
-Chemical Laser,jaa_chemlaser,0,0.8,1200,900,400,,,,15,10,8,1,4,HIGH_EXPLOSIVE,,250,0.2,,0.3,0,,,,,100000,,,,,,,,"he15, rare_bp, hist1t, sindrian_diktat, persean",,Advanced,,Anti Armor,,,,,,,,,,jaa3
-Crossbow LRM,jaa_crossbowlrm,0,0.8,1100,8000,,60,,25,10,8,20,0.1,2,ENERGY,0,,0,10,2,0.4,0,0,0,0,,150,100,60,70,,,"DO_NOT_AIM, DO_NOT_CONSERVE","missile8, missile_bp, merc",,Advanced,,Long Range Support,Very Slow,Very Poor,,,"Shoots an energy bolt when near the target, dealing %s damage",350,,,TRUE,jaa4
-Crossbow hiddeh,jaa_crossbow_hidden,,,,600,,350,,25,,,,,,ENERGY,,,,,1,,,,,,,500,,1.2,700,,,SYSTEM,,,,,,,,,,,,,,,jaa5
+Crossbow hiddeh,jaa_crossbow_hidden,,,,400,,350,500,25,,,,,,ENERGY,,,,,1,,,,,,,500,,1.2,700,,,SYSTEM,,,,,,,,,,,,,,,jaa5
 Grasshopper SRM Launcher,jaa_grasshopper,0,,1600,1400,,200,,5,30,8,240,,,FRAGMENTATION,0,,0,5,16,0.1,0,0,0,0,,400,100,6,60,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility14, missile12, rare_bp, hist1t, merc, luddic_church, luddic_path",,Advanced,,Anti Small Craft,Fast,Excellent,,,,,,,,jaa6
 Grasshopper SRM Launcher (Fighter),jaa_grasshopper_ftr,,,1600,1400,,200,,5,30,0,48,,,FRAGMENTATION,0,,0,5,16,0.1,0,0,0,0,,400,100,6,60,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM",,,Advanced,,Anti Small Craft,Fast,Excellent,,,,,,,,jaa7
-Light Needler (half),jaa_lneedlerhalf,,,800,700,,50,,1,20,0,,,,KINETIC,40,,0,2.1,7,0.05,0,10,0.66,5,,1200,,,10,,,SYSTEM,"kinetic9, LR, remnant, rare_bp, hist1t, merc",,,,Anti Shield,,,,,,,,,,jaa8
-Gravitonic Multidisruptor,jaa_gdisruptor,2,,4500,600,,60,,20,20,22,,,,KINETIC,60,,0,1.5,8,0.05,0,0,0,5,,500,,,,,,,"kinetic17, rare_bp, merc, tritachyon",,Advanced,,Anti Shield,,,,Perfect,,,,,,jaa9
-Gravitonic Disruptor,jaa_gdisruptorM,1,,1500,500,,50,,20,20,11,,,,KINETIC,60,,0,1.5,8,0.05,0,0,0,5,,500,,,,,,,"kinetic13, rare_bp, merc, tritachyon",,Advanced,,Anti Shield,,,,Perfect,,,,,,jaa10
 KS1 Magno-scatter,jaa_Kshotgun,1,,1400,600,,100,,1,25,10,,,,KINETIC,60,,0,2,1,,25,25,0,0,,900,,,60,,,,"kinetic14, rare_bp, hegemony, luddic_church",,Advanced,,Anti Shield,,,,,,,,,,jaa11
+Pike SBM,jaa_pike,1,,4200,2600,,300,,50,15,25,10,,,KINETIC,0,,0,12,1,,0,0,0,0,,200,50,8,600,,,"DO_NOT_AIM, STRIKE","missile20, strike15, rare_bp, hist1t, merc, pirates, hegemony, tritachyon, sindrian_diktat",,Advanced,,Anti Shield,Fast,Medium,,,"Due to it's charged disruptor-alloy warhead, damage against shields is multiplied by a factor of %s",3,,,TRUE,jaa1
+pike hidden,jaa_pike_s2,,,,1500,,900,800,50,15,,,,,KINETIC,,,,,1,,,,,,,3000,200,3,600,,,SYSTEM,,,,,,,,,,,,,,,jaa2
+Crossbow LRM,jaa_crossbowlrm,0,0.8,1100,3500,,60,,25,10,8,20,0.1,2,ENERGY,0,,0,10,2,0.4,0,0,0,0,,150,100,21,100,,,"DO_NOT_AIM, DO_NOT_CONSERVE","missile8, pirate_bp, merc, tritachyon, independent",,Advanced,,Long Range Support,Slow,Poor,,,"Shoots an energy bolt when near the target, dealing %s damage and %s emp damage",350 | 200,,,TRUE,jaa4
 ES3 Volatile-scatter,jaa_Eshotgun,1,,1400,600,,170,,1,25,10,,,,HIGH_EXPLOSIVE,110,,0,2,1,,25,25,0,0,,900,,,100,,,"PD, PD_ALSO","he15, PD12, rare_bp, hegemony, luddic_church",,Advanced,,Anti Small Craft,,,,,,,,,,jaa12
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Needler (half),jaa_lneedlerhalf,,,800,500,,50,,1,20,6,,,,KINETIC,40,,0,2.1,7,0.05,0,10,0.66,5,,1200,,,10,,,SYSTEM,"kinetic9, LR, remnant, rare_bp, hist1t, merc",,,,Anti Shield,,,,,,,,,,jaa8
+Chemical Laser,jaa_chemlaser,0,0.8,1400,900,400,,,,15,10,8,1,4,HIGH_EXPLOSIVE,,250,0.2,,0.3,0,,,,,100000,,,,,,,CONSERVE_FOR_ANTI_ARMOR,"he15, rare_bp, hist1t, sindrian_diktat, persean, beam12",,Advanced,,Anti Armor,,,,,,,,,,jaa3
+Gravitonic Multidisruptor,jaa_gdisruptor,2,,5000,600,,60,,20,20,22,,,,KINETIC,60,,0,1.5,8,0.05,0,0,0,5,,700,,,,,,,"kinetic17, rare_bp, merc, tritachyon",,Advanced,,Anti Shield,,,,Perfect,,,,,,jaa9
+Gravitonic Disruptor,jaa_gdisruptorM,1,,2000,500,,50,,20,20,11,,,,KINETIC,60,,0,1.5,8,0.05,0,0,0,5,,700,,,,,,,"kinetic13, rare_bp, merc, tritachyon",,Advanced,,Anti Shield,,,,Perfect,,,,,,jaa10
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,65 @@
+{
+    "displayName": "Brawler",
+    "fluxCapacitors": 17,
+    "fluxVents": 32,
+    "hullId": "legion",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jaa_legion_brawler",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "mark9",
+                "WS 001": "mark9"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "sabotpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "hveldriver",
+                "WS 003": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 020": "railgun",
+                "WS 021": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "heavymauler",
+                "WS 007": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "vulcan",
+                "WS 009": "vulcan",
+                "WS 018": "vulcan",
+                "WS 019": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "jaa_plague_wing",
+        "jaa_plague_wing",
+        "warthog_wing",
+        "warthog_wing"
+    ]
+}

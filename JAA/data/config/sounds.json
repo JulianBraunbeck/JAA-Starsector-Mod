@@ -61,5 +61,11 @@
 	{"file":"sounds/JAA/sfx_weapons/jaa_Eshotgun02.ogg","pitch":1.02,"volume":1.2},
 	{"file":"sounds/JAA/sfx_weapons/jaa_Eshotgun02.ogg","pitch":0.98,"volume":1.2},
 	],
+	
+	"jaa_impact_pike":[
+    {"file":"sounds/JAA/sfx_weapons/jaa_pikeimpactv9.ogg","pitch":0.98,"volume":1},
+	{"file":"sounds/JAA/sfx_weapons/jaa_pikeimpactv9.ogg","pitch":1,"volume":1},
+	{"file":"sounds/JAA/sfx_weapons/jaa_pikeimpactv9.ogg","pitch":1.02,"volume":1},
+	],
 }
 

@@ -1,0 +1,60 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 35,
+    "fluxVents": 50,
+    "hullId": "odyssey",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jaa_odyssey_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "hurricane"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "annihilatorpod",
+                "WS 005": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "harpoonpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "jaa_gdisruptor",
+                "WS 003": "jaa_gdisruptor"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser",
+                "WS 017": "pdlaser",
+                "WS 018": "pdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "wasp_wing",
+        "wasp_wing"
+    ]
+}

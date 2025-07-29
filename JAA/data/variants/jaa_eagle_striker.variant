@@ -1,0 +1,53 @@
+{
+    "displayName": "Striker",
+    "fluxCapacitors": 21,
+    "fluxVents": 30,
+    "hullId": "eagle",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jaa_eagle_striker",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "jaa_chemlaser",
+                "WS 006": "jaa_chemlaser",
+                "WS 009": "jaa_chemlaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "sabot",
+                "WS 002": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "heavyac",
+                "WS 008": "heavyac",
+                "WS 013": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 012": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 011": "lrpdlaser"}
+        }
+    ]
+}

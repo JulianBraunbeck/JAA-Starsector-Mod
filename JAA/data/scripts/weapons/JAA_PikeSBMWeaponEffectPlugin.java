@@ -8,7 +8,7 @@ import java.awt.*;
 
 // change the plugin name in the .weapon file to this
 public class JAA_PikeSBMWeaponEffectPlugin implements EveryFrameWeaponEffectPlugin {
-    private static final float HULL_DAMAGE_MULT = 0.5f;
+    private static final float HULL_DAMAGE_MULT = 3f;
     private boolean runOnce = false;
 
     //listener for 0 shield damage, ty to dragn for help!
@@ -43,7 +43,7 @@ public class JAA_PikeSBMWeaponEffectPlugin implements EveryFrameWeaponEffectPlug
         @Override
         public String modifyDamageDealt(Object param, CombatEntityAPI target, DamageAPI damage, Vector2f point, boolean shieldHit)
         {
-            if ((param instanceof MissileAPI) && !shieldHit)
+            if ((param instanceof MissileAPI) && shieldHit)
             {
                 WeaponAPI weapon = ((MissileAPI)param).getWeapon();
                 if (weapon == null)

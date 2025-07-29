@@ -1,0 +1,52 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 11,
+    "fluxVents": 50,
+    "hullId": "atlas2",
+    "hullMods": ["dedicated_targeting_core"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jaa_atlas2_attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "hephag",
+                "WS 009": "hephag"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "jaa_pike",
+                "WS 013": "jaa_pike"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "lightdualmg",
+                "WS 011": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "dualflak",
+                "WS 018": "dualflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 002": "lightdualmg"
+            }
+        }
+    ]
+}
